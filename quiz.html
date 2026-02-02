@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css" />
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon" />
+    <title>Emmpo Quiz</title>
+</head>
+
+<body>
+
+    <div class="quiz-loader">
+        <div class="quiz-loader-ball"></div>
+        <div class="quiz-loader-text">
+            <h2 class="break-text-first-level">emmpo</h2>
+            <h3>quiz</h3>
+        </div>
+    </div>
+    <div class="main">
+        <div class="quiz-home">
+            <div class="quiz-home-img">
+                <img src="https://involve-me.imgix.net/uploads/assets/a5527336-192c-4b3d-979c-2dc6aaedfa55.png?auto=format&q=55&dpr=1.25&w=800&fit=max"
+                    alt="img">
+            </div>
+            <div class="quiz-home-btn">
+                <button>let's get started!</button>
+            </div>
+            <div class="quiz-questions-section">
+                <div class="quiz-question-box">
+                    <div class="quiz-question">
+                        <h2><span>1</span>. What kind of thing do you enjoy doing the most?</h2>
+                    </div>
+                    <div class="quiz-image">
+                        <img src="images/Gemini_Generated_Image_3hdiqc3hdiqc3hdi.png" alt="img">
+                    </div>
+                    <div class="quiz-options">
+                        <div class="option1 option">
+                            <input required type="radio" name="question1" id="option1">
+                            <label for="option1">Cracking puzzles and figuring things out</label>
+                        </div>
+                        <div class="option2 option">
+                            <input required type="radio" name="question1" id="option2">
+                            <label for="option2">By watching how others do it</label>
+                        </div>
+                        <div class="option3 option">
+                            <input required type="radio" name="question1" id="option3">
+                            <label for="option3">By following clear steps one by one</label>
+                        </div>
+                        <div class="option4 option">
+                            <input required type="radio" name="question1" id="option4">
+                            <label for="option4">By reading, researching, and understanding it deeply</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="quiz-next-btn">
+                    <button>next <span>→</span></button>
+                </div>
+            </div>
+            <div class="quiz-result-section">
+                <div class="quiz-result-head">
+                    <h2>Let's see the career path choose by EMMPO through your response.</h2>
+                </div>
+                <div class="quiz-result-btn">
+                    <button>Let's go!</button>
+                </div>
+            </div>
+            <div class="quiz-para-display">
+                <h3 class="result-greeting">Hey <span class="user-name"></span>,</h3>
+                <p>Based on what you respond, it’s clear that you enjoy <span></span>, and you usually learn best by
+                    <span></span>.<br> What motivates you most is <span></span>, which influences how you deal with
+                    challenges—whether that
+                    means <span></span>.<br> You tend to do your best work in <span></span>, and your thinking
+                    naturally leans toward <span></span>.<br> When it comes to decisions, you usually rely on <span></span>,
+                    and you
+                    feel most fulfilled when your work focuses on <span></span>.<br> Looking ahead, you value
+                    <span></span>,and you approach the future with <span></span>.<br> 
+                </p>
+                <h4>So by taking all conclusion the career path which you can follow should be <span class="career-role"></span>.</h4>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+        integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js"
+        integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.3.17/dist/lenis.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
